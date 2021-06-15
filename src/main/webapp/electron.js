@@ -25,6 +25,8 @@ autoUpdater.logger.transports.file.level = 'info'
 autoUpdater.autoDownload = false
 
 const __DEV__ = process.env.DRAWIO_ENV === 'dev'
+
+console.log('works');
 		
 let windowsRegistry = []
 let cmdQPressed = false
